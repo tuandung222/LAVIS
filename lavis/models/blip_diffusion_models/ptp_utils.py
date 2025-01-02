@@ -21,7 +21,8 @@ import numpy as np
 import torch
 from IPython.display import display
 from PIL import Image
-from diffusers.models.cross_attention import CrossAttention
+# from diffusers.models.cross_attention import CrossAttention
+from diffusers.models.attention import Attention as CrossAttention
 from typing import Union, Tuple, List, Dict, Optional
 import torch.nn.functional as nnf
 
